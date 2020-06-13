@@ -39,14 +39,14 @@ app.get('/project/:id', (req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    const error = new Error('<h1>The page was not found. Please enter a valid URL.</h1>');
+    const error = new Error('<h1>The page was not found.</h1>');
     error.status = 404;
     next(error);
 })
 
 app.use((error, req, res, next) => {
     res.status(error.status);
-    res.send(`${error.message}`);
+    res.send(`${error.message} <h1>${error.status}</h1>`);
 })
 
 
