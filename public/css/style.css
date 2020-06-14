@@ -125,6 +125,7 @@ a:hover{
   }
   
   .portfolio-index .cell:hover {
+    transition: .25s ease-out;
     transform: scale(1.1);
   }
 

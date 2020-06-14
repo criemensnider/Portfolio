@@ -19,7 +19,9 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 /*********************
- * Sets routes to the pages to be rendered (the home landing page, about page, and products pages).
+ * Sets routes to the pages to be rendered (the home landing page, about page, and projects pages). The projects
+ * pages in project.pug receive data from data.json relative to the specific project that has been selected (thisProject)
+ * and then dynamically render that information on screen. 
 *********************/
 
 app.get('/', (req, res) => {
