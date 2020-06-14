@@ -21,7 +21,7 @@
         { 
         "id": "1",
         "project_name": "Paginated Student List",
-        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the number of individuals listed 10 at a time. When they click on the next link, the next ten individuals are displayed and so on. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
+        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the full list of students 10 at a time. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
         "technologies": [
             "HTML",
             "CSS",
@@ -40,7 +40,7 @@
         { 
         "id": "2",
         "project_name": "Conference Signup Form",
-        "description": "This is a signup form for a fictional conference. I completed this project using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have input. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messgaes below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function. All JavaScript is mine and some minor changes to the HTML and CSS.",
+        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messgaes below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
         "technologies": [
             "HTML",
             "CSS",
@@ -60,7 +60,7 @@
         { 
         "id": "3",
         "project_name": "Phrase Hunter Game",
-        "description": "This project uses object-oriented vanilla JavaScript to create a hangman-like game. Players use the onscreen keyboard to make their guesses. If a guess is incorrect, the player loses a life (the hearts at the bottom). The player has a total of five tries in which to guess the phrase. If they do not, a losing message is presented and they can restart the game. If they guess the phrase, then a winning message is logged and they can generate a new random phrase to guess.",
+        "description": "This project uses object-oriented vanilla JavaScript to create a hangman-like game. Players use the onscreen keyboard to make their guesses. If a guess is incorrect, the player loses a life (the hearts at the bottom). The player has a total of five tries in which to guess the phrase. If they do not, a losing message is presented and they can restart the game. If they guess the phrase, then a winning message is displayed and they can generate a new random phrase to guess.",
         "technologies": [
             "HTML",
             "CSS",

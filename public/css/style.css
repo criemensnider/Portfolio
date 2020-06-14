@@ -123,6 +123,10 @@ a:hover{
   .portfolio-index .cell{
     margin-bottom: 15px;
   }
+  
+  .portfolio-index .cell:hover {
+    transform: scale(1.1);
+  }
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;

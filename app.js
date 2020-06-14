@@ -19,7 +19,7 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 /*********************
- * Sets routes to the pages to be rendered.
+ * Sets routes to the pages to be rendered (the home landing page, about page, and products pages).
 *********************/
 
 app.get('/', (req, res) => {
@@ -57,6 +57,10 @@ app.use((err, req, res, next) => {
     res.render('error');
     res.status(err.status);
 });
+
+/*********************
+ * The app listens on localhost:3000. The app will also run if a user enters 'npm start' in the terminal.
+*********************/
 
 app.listen(3000, () => {
     console.log('The app is running on localhost:3000!');
