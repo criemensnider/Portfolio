@@ -35,7 +35,6 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res, next) => {
     const id = req.params.id;
     const thisProject = data.projects[id];
-    console.log(thisProject);
     const templateData = { thisProject };
     res.render('project', templateData);
 });
