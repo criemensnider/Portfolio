@@ -38,19 +38,23 @@ app.get('/project/:id', (req, res, next) => {
     res.render('project', templateData);
 });
 
+/*********************
+ * 404 Error Handler followed by a custom error handler that points 
+ * to the error.pug file and renders it if an error occurs. 
+*********************/
+
 app.use((req, res, next) => {
-    const error = new Error('<h1>The page was not found.</h1>');
-    error.status = 404;
-    next(error);
+    const err = new Error('Uh-oh! This page doesn\'t exist! Try again.');
+    err.status = 404;
+    console.log('That page doesn\'t exist in the app.')
+    next(err);
 })
 
-app.use((error, req, res, next) => {
-    res.status(error.status);
-    res.send(`${error.message} <h1>${error.status}</h1>`);
-})
-
-
-
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.render('error');
+    res.status(err.status);
+});
 
 app.listen(3000, () => {
     console.log('The app is running on localhost:3000!');
