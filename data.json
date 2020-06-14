@@ -12,14 +12,16 @@
         "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
         "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
         "image_urls": [
-            "./images/0/randomquote1.JPG",
-            "./images/0/randomquote2.JPG"
+            "./static/images/0/randomquote0square.jpg",
+            "./static/images/0/randomquote1.JPG",
+            "./static/images/0/randomquote2.JPG",
+            "./static/images/0/randomquote3.JPG"
         ]
         }, 
         { 
         "id": "1",
         "project_name": "Paginated Student List",
-        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the number of individuals listed 10 at a time. When they click on the next link, the next ten individuals are displayed and so on. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is logged telling the user to try another name as no matches were found.",
+        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the number of individuals listed 10 at a time. When they click on the next link, the next ten individuals are displayed and so on. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
         "technologies": [
             "HTML",
             "CSS",
@@ -28,10 +30,11 @@
         "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
         "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
         "image_urls": [
-            "./images/1/list1.JPG",
-            "./images/1/list2.JPG",
-            "./images/1/list3.JPG",
-            "./images/1/list4.JPG"
+            "./static/images/1/list0square.jpg",
+            "./static/images/1/list1.JPG",
+            "./static/images/1/list2.JPG",
+            "./static/images/1/list3.JPG",
+            "./static/images/1/list4.JPG"
         ]
         },
         { 
@@ -47,10 +50,11 @@
         "live_link": "https://criemensnider.github.io/Form-Validation/",
         "github_link": "https://github.com/criemensnider/Form-Validation",
         "image_urls": [
-            "./images/2/form1.JPG",
-            "./images/2/form2.JPG",
-            "./images/2/form3.JPG",
-            "./images/2/form4.JPG"
+            "./static/images/2/form0square.jpg",
+            "./static/images/2/form1.JPG",
+            "./static/images/2/form2.JPG",
+            "./static/images/2/form3.JPG",
+            "./static/images/2/form4.JPG"
         ]
         },
         { 
@@ -65,11 +69,12 @@
         "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
         "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
         "image_urls": [
-            "./images/3/phrase1.JPG",
-            "./images/3/phrase2.JPG",
-            "./images/3/phrase3.JPG",
-            "./images/3/phrase4.JPG",
-            "./images/3/phrase5.JPG"
+            "./static/images/3/phrase0square.jpg",
+            "./static/images/3/phrase1.JPG",
+            "./static/images/3/phrase2.JPG",
+            "./static/images/3/phrase3.JPG",
+            "./static/images/3/phrase4.JPG",
+            "./static/images/3/phrase5.JPG"
         ]
         },
         { 
@@ -86,9 +91,10 @@
         "live_link": "https://criemensnider.github.io/Employee-Directory-App---Web-API/",
         "github_link": "https://github.com/criemensnider/Employee-Directory-App---Web-API",
         "image_urls": [
-            "./images/4/directory1.jpg",
-            "./images/4/directory2.JPG",
-            "./images/4/directory3.JPG"
+            "./static/images/4/directory0square.jpg",
+            "./static/images/4/directory1.JPG",
+            "./static/images/4/directory2.JPG",
+            "./static/images/4/directory3.JPG"
         ]
         }
     ]
