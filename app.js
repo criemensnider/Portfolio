@@ -48,7 +48,7 @@ app.use((req, res, next) => {
     err.status = 404;
     console.log('That page doesn\'t exist in the app.')
     next(err);
-})
+});
 
 app.use((err, req, res, next) => {
     res.locals.error = err;
