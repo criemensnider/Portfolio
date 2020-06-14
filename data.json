@@ -12,8 +12,8 @@
         "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
         "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
         "image_urls": [
-            "./images/1/randomquote1.JPG",
-            "./images/1/randomquote2.JPG"
+            "./images/0/randomquote1.JPG",
+            "./images/0/randomquote2.JPG"
         ]
         }, 
         { 
@@ -28,10 +28,10 @@
         "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
         "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
         "image_urls": [
-            "./images/2/list1.JPG",
-            "./images/2/list2.JPG",
-            "./images/2/list3.JPG",
-            "./images/2/list4.JPG"
+            "./images/1/list1.JPG",
+            "./images/1/list2.JPG",
+            "./images/1/list3.JPG",
+            "./images/1/list4.JPG"
         ]
         },
         { 
@@ -47,10 +47,10 @@
         "live_link": "https://criemensnider.github.io/Form-Validation/",
         "github_link": "https://github.com/criemensnider/Form-Validation",
         "image_urls": [
-            "./images/3/form1.JPG",
-            "./images/3/form2.JPG",
-            "./images/3/form3.JPG",
-            "./images/3/form4.JPG"
+            "./images/2/form1.JPG",
+            "./images/2/form2.JPG",
+            "./images/2/form3.JPG",
+            "./images/2/form4.JPG"
         ]
         },
         { 
@@ -65,11 +65,11 @@
         "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
         "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
         "image_urls": [
-            "./images/4/phrase1.JPG",
-            "./images/4/phrase2.JPG",
-            "./images/4/phrase3.JPG",
-            "./images/4/phrase4.JPG",
-            "./images/4/phrase5.JPG"
+            "./images/3/phrase1.JPG",
+            "./images/3/phrase2.JPG",
+            "./images/3/phrase3.JPG",
+            "./images/3/phrase4.JPG",
+            "./images/3/phrase5.JPG"
         ]
         },
         { 
@@ -86,9 +86,9 @@
         "live_link": "https://criemensnider.github.io/Employee-Directory-App---Web-API/",
         "github_link": "https://github.com/criemensnider/Employee-Directory-App---Web-API",
         "image_urls": [
-            "./images/5/directory1.JPG",
-            "./images/5/directory2.JPG",
-            "./images/5/directory3.JPG"
+            "./images/4/directory1.jpg",
+            "./images/4/directory2.JPG",
+            "./images/4/directory3.JPG"
         ]
         }
     ]

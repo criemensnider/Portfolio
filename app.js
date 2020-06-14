@@ -23,7 +23,9 @@ app.use('/static', express.static('public'));
 *********************/
 
 app.get('/', (req, res) => {
-    res.render('index');
+    const projects = data.projects;
+    const templateData = { projects };
+    res.render('index', projects);
 })
 
 app.get('/about', (req, res) => {
