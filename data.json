@@ -7,7 +7,8 @@
         "technologies": [
             "HTML", 
             "CSS", 
-            "JavaScript"
+            "JavaScript",
+            "Functional Programming"
         ],
         "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
         "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
@@ -25,7 +26,8 @@
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "Dynamic Pagination and Searchbar"
         ],
         "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
         "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
@@ -45,7 +47,8 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "RegEx"
+            "RegEx",
+            "Responsive Forms"
         ],
         "live_link": "https://criemensnider.github.io/Form-Validation/",
         "github_link": "https://github.com/criemensnider/Form-Validation",
@@ -64,7 +67,8 @@
         "technologies": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "Object-Oriented Programming"
         ],
         "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
         "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
@@ -86,7 +90,8 @@
             "CSS",
             "JavaScript",
             "API",
-            "JavaScript Promises"
+            "JavaScript Promises",
+            "jQuery"
         ],
         "live_link": "https://criemensnider.github.io/Employee-Directory-App---Web-API/",
         "github_link": "https://github.com/criemensnider/Employee-Directory-App---Web-API",
