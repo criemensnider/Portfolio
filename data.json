@@ -3,7 +3,7 @@
         { 
         "id": "0",
         "project_name": "Random Quote Generator",
-        "description": "This is the first project I completed for the Full Stack Javascript Techdegree from Treehouse. The project takes in an array of quotes with information pertinent to those quotes (who said it, where they said it, when they said it, and a category for the quote). The function in the program then randomizes the quotes and selects one. As it does this, the background color for the page changes to a random color. If a user doesn't hit the button to get a random quote within ten seconds, the page will automatically select a new random quote.",
+        "description": "This project takes in an array of quotes with information pertinent to those quotes (who said it, where they said it, when they said it, and a category for the quote). The function in the program then randomizes the quotes and selects one. As it does this, the background color for the page changes to a random color. If a user doesn't hit the button to get a random quote within ten seconds, the page will automatically select a new random quote.",
         "technologies": [
             "HTML", 
             "CSS", 
@@ -42,7 +42,7 @@
         { 
         "id": "2",
         "project_name": "Conference Signup Form",
-        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messgaes below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
+        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messages below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
         "technologies": [
             "HTML",
             "CSS",
