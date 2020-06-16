@@ -1,0 +1,5 @@
+This site is live and hosted at camportfolio.herokuapp.com. 
+
+This application utilizes node.js, Express, and Pug to create a working portfolio website. The home page displays a gallery-style collection of projects I have completed. By clicking on each project tile, the user is routed to an individual project page that displays the skills used in the project, has images of the different project states, and allows the user to visit a live demo of the site or to visit its Github repo. There is also an "about me" page that explains my journey to software development, displays more of my skills, and links to my LinkedIn, Github, and Twitter. 
+
+The back-end is handled by Express, which sets up a static server to hold all relevant image, CSS, and JavaScript files. Express also handles errors in a customized way when they occur on the site. Pug is used to create templates that Express renders for each portfolio project in the data.json file. Pug also renders templates for the "about me" page and landing page. All relevant dependencies are packaged in the pacakage.json and are ready to be used by other node users. 
