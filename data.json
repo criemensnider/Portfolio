@@ -103,25 +103,25 @@
         ]
         },
         { 
-            "id": "5",
-            "project_name": "Connect Four Game",
-            "description": "This project utilizes object-oriented JavaScript to complete a connect four game. In this program, heavy use is made of JavaScript's class constructors to create each aspect of the game (the players, tokens, board, spaces, and game itself). The program is highly modular, with each aspect coded in its own file for high readability. When the game begins, the first player uses the arrow keys to control their token and then drops the token in the slot of their choosing. The game alternates between both players until one has placed four tokens in a row. They are then declared the winner! If both players play all their tokens and there is no winner, a message is displayed. After either ending event, a message is displayed telling the user to refresh the browser to start a new game.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "JavaScript Classes",
-                "jQuery"
-            ],
-            "live_link": "https://criemensnider.github.io/Connect-4-Game/",
-            "github_link": "https://github.com/criemensnider/Connect-4-Game",
-            "image_urls": [
-                "./static/images/5/connect0square.jpg",
-                "./static/images/5/connect1.JPG",
-                "./static/images/5/connect2.JPG",
-                "./static/images/5/connect3.JPG"
-            ]
-            }
+        "id": "5",
+        "project_name": "Connect Four Game",
+        "description": "This project utilizes object-oriented JavaScript to complete a connect four game. In this program, heavy use is made of JavaScript's class constructors to create each aspect of the game (the players, tokens, board, spaces, and game itself). The program is highly modular, with each aspect coded in its own file for high readability. When the game begins, the first player uses the arrow keys to control their token and then drops the token in the slot of their choosing. The game alternates between both players until one has placed four tokens in a row. They are then declared the winner! If both players play all their tokens and there is no winner, a message is displayed. After either ending event, a message is displayed telling the user to refresh the browser to start a new game.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JavaScript Classes",
+            "jQuery"
+        ],
+        "live_link": "https://criemensnider.github.io/Connect-4-Game/",
+        "github_link": "https://github.com/criemensnider/Connect-4-Game",
+        "image_urls": [
+            "./static/images/5/connect0square.jpg",
+            "./static/images/5/connect1.JPG",
+            "./static/images/5/connect2.JPG",
+            "./static/images/5/connect3.JPG"
+        ]
+        }
     ]
 
 }
