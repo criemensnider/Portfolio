@@ -121,6 +121,26 @@
             "./static/images/5/connect2.JPG",
             "./static/images/5/connect3.JPG"
         ]
+        },
+        { 
+        "id": "6",
+        "project_name": "MCIT Online Study Smackdown!",
+        "description": "This game pits two students against each other to test their knowledge of various computer science topics! Players begin by entering their names and selecting topics. Then they are fed questions until one of them has gotten five right. They are then taken to a page that displays the winner and further information, as well as giving them an opportunity to play again",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JavaScript Classes",
+            "Responsive Design"
+        ],
+        "live_link": "https://criemensnider.github.io/Hackathon-Project/",
+        "github_link": "https://github.com/criemensnider/Hackathon-Project",
+        "image_urls": [
+            "./static/images/6/study0square.PNG",
+            "./static/images/6/study1.PNG",
+            "./static/images/6/study2.PNG",
+            "./static/images/6/study3.PNG"
+        ]
         }
     ]
 
