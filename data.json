@@ -55,9 +55,9 @@
         "github_link": "https://github.com/criemensnider/Battleship",
         "image_urls": [
             "./static/images/2/battleship0square.png",
-            "./static/images/2/battleship1.png",
-            "./static/images/2/battleship2.png",
-            "./static/images/2/battleship3.png"
+            "./static/images/2/battleship1.PNG",
+            "./static/images/2/battleship2.PNG",
+            "./static/images/2/battleship3.PNG"
         ]
         },
         { 
