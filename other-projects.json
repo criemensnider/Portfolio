@@ -1,0 +1,20 @@
+{
+"id": "0",
+"project_name": "Random Quote Generator",
+"description": "This project takes in an array of quotes with information pertinent to those quotes (who said it, where they said it, when they said it, and a category for the quote). The function in the program then randomizes the quotes and selects one. As it does this, the background color for the page changes to a random color. If a user doesn't hit the button to get a random quote within ten seconds, the page will automatically select a new random quote.",
+"technologies": [
+    "HTML", 
+    "CSS", 
+    "JavaScript",
+    "Functional Programming"
+],
+"live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
+"github_link": "https://github.com/criemensnider/Random-Quote-Generator",
+"image_urls": [
+    "./static/images/0/randomquote0square.jpg",
+    "./static/images/0/randomquote1.JPG",
+    "./static/images/0/randomquote2.JPG",
+    "./static/images/0/randomquote3.JPG"
+]
+}
+

@@ -2,62 +2,62 @@
     "projects": [
         { 
         "id": "0",
-        "project_name": "Random Quote Generator",
-        "description": "This project takes in an array of quotes with information pertinent to those quotes (who said it, where they said it, when they said it, and a category for the quote). The function in the program then randomizes the quotes and selects one. As it does this, the background color for the page changes to a random color. If a user doesn't hit the button to get a random quote within ten seconds, the page will automatically select a new random quote.",
-        "technologies": [
-            "HTML", 
-            "CSS", 
-            "JavaScript",
-            "Functional Programming"
-        ],
-        "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
-        "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
-        "image_urls": [
-            "./static/images/0/randomquote0square.jpg",
-            "./static/images/0/randomquote1.JPG",
-            "./static/images/0/randomquote2.JPG",
-            "./static/images/0/randomquote3.JPG"
-        ]
-        }, 
-        { 
-        "id": "1",
-        "project_name": "Paginated Student List",
-        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the full list of students 10 at a time. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
+        "project_name": "MCIT Online Study Smackdown!",
+        "description": "This game pits two students against each other to test their knowledge of various computer science topics! Players begin by entering their names and selecting topics. Then they are fed questions until one of them has gotten five right. They are then taken to a page that displays the winner and further information, as well as giving them an opportunity to play again",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript",
-            "Dynamic Pagination and Searchbar"
+            "JavaScript Classes",
+            "Responsive Design"
         ],
-        "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
-        "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
+        "live_link": "https://criemensnider.github.io/Hackathon-Project/",
+        "github_link": "https://github.com/criemensnider/Hackathon-Project",
         "image_urls": [
-            "./static/images/1/list0square.jpg",
-            "./static/images/1/list1.JPG",
-            "./static/images/1/list2.JPG",
-            "./static/images/1/list3.JPG",
-            "./static/images/1/list4.JPG"
+            "./static/images/0/study0square.PNG",
+            "./static/images/0/study1.PNG",
+            "./static/images/0/study2.PNG",
+            "./static/images/0/study3.PNG"
         ]
         },
-        { 
-        "id": "2",
-        "project_name": "Conference Signup Form",
-        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messages below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
+        {
+        "id": "1",
+        "project_name": "Magic Mirror",
+        "description": "This project features a smart mirror that serves up useful data for users. The mirror provides the current time, current weather for my home location, 5-day forecast for my current location, syncs with my Google Calendar to provide upcoming events, has a New York Times RSS feed that pulls the most recent news headlines, and provides encouraging messages that are catered to various times of day (Morning, Afternoon, Evening, or Anytime). The hardware consists of a shadow box which contains a two-way mirror in front of a computer monitor with a Raspberry Pi mounted to the back. The monitor then serves up info through the mirror screen.",
         "technologies": [
-            "HTML",
-            "CSS",
+            "Linux Command Line",
             "JavaScript",
-            "RegEx",
-            "Responsive Forms"
+            "node.js",
+            "CSS",
+            "API's",
+            "Git",
+            "Raspberry Pi"
         ],
-        "live_link": "https://criemensnider.github.io/Form-Validation/",
-        "github_link": "https://github.com/criemensnider/Form-Validation",
+        "github_link": "https://github.com/criemensnider/Magic-Mirror-Code",
         "image_urls": [
-            "./static/images/2/form0square.jpg",
-            "./static/images/2/form1.JPG",
-            "./static/images/2/form2.JPG",
-            "./static/images/2/form3.JPG",
-            "./static/images/2/form4.JPG"
+            "./static/images/1/mirror0square.jpg",
+            "./static/images/1/mirror3.jpg",
+            "./static/images/1/mirror1.jpg",
+            "./static/images/1/mirror2.jpg"
+        ]
+        },
+        {
+        "id": "2",
+        "project_name": "Java Battleship Game",
+        "description": "This project uses Java to render a command-line battleship game that a user can play against a computer. The ships are randomly placed each time and users can enter where they'd like to shoot by entering a pair of coordinates each turn. Sunk ships are represented by an 's', hits are represented by an 'x', spaces that have not been shot at are represented by '.', and misses are represented by '-'.",
+        "technologies": [
+            "Java",
+            "jUnit Testing",
+            "Method Overloading",
+            "Abstract Classes and Methods",
+            "Javadocs"
+        ],
+        "github_link": "https://github.com/criemensnider/Battleship",
+        "image_urls": [
+            "./static/images/2/battleship0square.png",
+            "./static/images/2/battleship1.png",
+            "./static/images/2/battleship2.png",
+            "./static/images/2/battleship3.png"
         ]
         },
         { 
@@ -73,16 +73,35 @@
         "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
         "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
         "image_urls": [
-            "./static/images/3/phrase0square.jpg",
-            "./static/images/3/phrase1.JPG",
-            "./static/images/3/phrase2.JPG",
-            "./static/images/3/phrase3.JPG",
-            "./static/images/3/phrase4.JPG",
-            "./static/images/3/phrase5.JPG"
+            "./static/images/9/phrase0square.jpg",
+            "./static/images/9/phrase1.JPG",
+            "./static/images/9/phrase2.JPG",
+            "./static/images/9/phrase3.JPG",
+            "./static/images/9/phrase4.JPG",
+            "./static/images/9/phrase5.JPG"
+        ]
+        },
+        {
+        "id": "4",
+        "project_name": "Java Hangman Game",
+        "description": "This project gets dictionary input from a large dictionary file, cleans the input, and then uses those words as the source for the game. The game has two modes, but the user doesn't know which they are playing. Normal hangman mode plays as one would expect, where a user guesses a letter and letters are revealed one at a time until they run out of tries or guess the word. Evil Hangman changes the word each time a player guesses a correct letter to another word with the same letter configuration as the user currently has.",
+        "technologies": [
+            "Java",
+            "jUnit Testing",
+            "Java File I/O",
+            "Abstract Classes and Methods",
+            "Javadocs"
+        ],
+        "github_link": "https://github.com/criemensnider/Hangman",
+        "image_urls": [
+            "./static/images/Hangman/hangman0square.png",
+            "./static/images/Hangman/start.png",
+            "./static/images/Hangman/midway.png",
+            "./static/images/Hangman/gameEnd.png"
         ]
         },
         { 
-        "id": "4",
+        "id": "5",
         "project_name": "Employee Directory",
         "description": "This project utilizes a web API to pull data on twelve random employees including their photo, name, birthday, address, city, state, and more for display in an employee directory. The project utilizes JavaScript's fetch() method and promises to make the code more readable and cut down on callback hell. The twelve employees are initially displayed in a gallery-type directory. If an individual employee is clicked on, then a modal tile with more detailed information about that employee is rendered.",
         "technologies": [
@@ -103,7 +122,65 @@
         ]
         },
         { 
-        "id": "5",
+        "id": "6",
+        "project_name": "Paginated Student List",
+        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the full list of students 10 at a time. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Dynamic Pagination and Searchbar"
+        ],
+        "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
+        "image_urls": [
+            "./static/images/7/list0square.jpg",
+            "./static/images/7/list1.JPG",
+            "./static/images/7/list2.JPG",
+            "./static/images/7/list3.JPG",
+            "./static/images/7/list4.JPG"
+        ]
+        },
+        { 
+        "id": "7",
+        "project_name": "Python Tower Blaster",
+        "description": "This game gives the player a tower that they must order from smallest to largest \"brick\" in numerical order faster than the computer can order its tower. Players can choose to  draw a tile from the top of the draw pile or get a random tile. They then choose which \"brick\" they'd like to replace in their tower. The project is written in Python.",
+        "technologies": [
+            "Python",
+            "Unit Testing",
+            "Algorithm Design"
+        ],
+        "github_link": "https://github.com/criemensnider/TowerBlaster",
+        "image_urls": [
+            "./static/images/Tower/tower0square.png",
+            "./static/images/Tower/gameStart.png",
+            "./static/images/Tower/gameMid.png",
+            "./static/images/Tower/gameEnd.png"
+        ]
+        },
+        { 
+        "id": "8",
+        "project_name": "Conference Signup Form",
+        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messages below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "RegEx",
+            "Responsive Forms"
+        ],
+        "live_link": "https://criemensnider.github.io/Form-Validation/",
+        "github_link": "https://github.com/criemensnider/Form-Validation",
+        "image_urls": [
+            "./static/images/8/form0square.jpg",
+            "./static/images/8/form1.JPG",
+            "./static/images/8/form2.JPG",
+            "./static/images/8/form3.JPG",
+            "./static/images/8/form4.JPG"
+        ]
+        },
+        { 
+        "id": "9",
         "project_name": "Connect Four Game",
         "description": "This project utilizes object-oriented JavaScript to complete a connect four game. In this program, heavy use is made of JavaScript's class constructors to create each aspect of the game (the players, tokens, board, spaces, and game itself). The program is highly modular, with each aspect coded in its own file for high readability. When the game begins, the first player uses the arrow keys to control their token and then drops the token in the slot of their choosing. The game alternates between both players until one has placed four tokens in a row. They are then declared the winner! If both players play all their tokens and there is no winner, a message is displayed. After either ending event, a message is displayed telling the user to refresh the browser to start a new game.",
         "technologies": [
@@ -123,23 +200,22 @@
         ]
         },
         { 
-        "id": "6",
-        "project_name": "MCIT Online Study Smackdown!",
-        "description": "This game pits two students against each other to test their knowledge of various computer science topics! Players begin by entering their names and selecting topics. Then they are fed questions until one of them has gotten five right. They are then taken to a page that displays the winner and further information, as well as giving them an opportunity to play again",
+        "id": "10",
+        "project_name": "Random Quote Generator",
+        "description": "This project takes in an array of quotes with information pertinent to those quotes (who said it, where they said it, when they said it, and a category for the quote). The function in the program then randomizes the quotes and selects one. As it does this, the background color for the page changes to a random color. If a user doesn't hit the button to get a random quote within ten seconds, the page will automatically select a new random quote.",
         "technologies": [
-            "HTML",
-            "CSS",
+            "HTML", 
+            "CSS", 
             "JavaScript",
-            "JavaScript Classes",
-            "Responsive Design"
+            "Functional Programming"
         ],
-        "live_link": "https://criemensnider.github.io/Hackathon-Project/",
-        "github_link": "https://github.com/criemensnider/Hackathon-Project",
+        "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
+        "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
         "image_urls": [
-            "./static/images/6/study0square.PNG",
-            "./static/images/6/study1.PNG",
-            "./static/images/6/study2.PNG",
-            "./static/images/6/study3.PNG"
+            "./static/images/10/randomquote0square.jpg",
+            "./static/images/10/randomquote1.JPG",
+            "./static/images/10/randomquote2.JPG",
+            "./static/images/10/randomquote3.JPG"
         ]
         }
     ]
