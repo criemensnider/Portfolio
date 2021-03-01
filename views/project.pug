@@ -19,9 +19,10 @@ block content
         ul
           each technology in thisProject.technologies
             li= technology
-
-        a.button.expanded(href=`${thisProject.live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${thisProject.github_link}` target='_blank') GitHub Repo
+        if thisProject.live_link
+          a.button.expanded(href=`${thisProject.live_link}` target='_blank') Live Demo
+        if thisProject.github_link
+          a.button.expanded(href=`${thisProject.github_link}` target='_blank') GitHub Repo
     
     img.image(src=`../${thisProject.image_urls[1]}`)
     img.image(src=`../${thisProject.image_urls[2]}`)
