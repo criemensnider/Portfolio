@@ -1,6 +1,6 @@
 extends layout
 
 block content
-    h2 Sorry, this project doesn't have a live link.
-    h2 Please navigate back to the gallery. 
-    pre= error
+    h1= error.message 
+    h2 Error status code: #{error.status}
+    pre= error.stack 
