@@ -62,6 +62,6 @@ app.use((err, req, res, next) => {
  * The app listens on localhost:3000. The app will also run if a user enters 'npm start' in the terminal.
 *********************/
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 5001, () => {
     console.log('The server is running!');
 });
