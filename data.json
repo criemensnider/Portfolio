@@ -1,5 +1,6 @@
 { 
     "projects": [
+        
         { 
         "id": "0",
         "project_name": "MCIT Online Study Smackdown!",
@@ -43,25 +44,47 @@
         },
         {
         "id": "2",
-        "project_name": "Java Battleship Game",
-        "description": "This project uses Java to render a command-line battleship game that a user can play against a computer. The ships are randomly placed each time and users can enter where they'd like to shoot by entering a pair of coordinates each turn. Sunk ships are represented by an 's', hits are represented by an 'x', spaces that have not been shot at are represented by '.', and misses are represented by '-'.",
+        "project_name": "Domino Game AI - Minimax With Alpha-Beta Pruning",
+        "description": "This is a project I did for my AI class at UPenn. This project implements a minimax algorithm with alpha-beta pruning to create an AI that is capable of playing a dominoes game. The game is played by two players, one a human and the other the AI. One player always places dominoes vertically, the other horizontally. The AI allows a player to enter a number to specify how many moves ahead it should search in the minimax tree of possiblities, 1 being the least and 9 the most. If the game looks 9 moves into the future, it is exceedingly hard to beat. It examines all possible outcomes to determine the most optimal play for it, assuming fully optimal play by the human player. If the human player makes an error, it is even easier for the AI to win. Code available on request.",
         "technologies": [
-            "Java",
-            "jUnit Testing",
-            "Method Overloading",
-            "Abstract Classes and Methods",
-            "Javadocs"
+            "Python",
+            "Artificial Intelligence",
+            "Minimax Algorithm",
+            "Alpha-Beta Pruning"
         ],
-        "github_link": "https://github.com/criemensnider/Battleship",
+        "github_link": "https://github.com/criemensnider/dominoAlphaBetaMinimaxAI",
         "image_urls": [
-            "./static/images/2/battleship0square.png",
-            "./static/images/2/battleship1.PNG",
-            "./static/images/2/battleship2.PNG",
-            "./static/images/2/battleship3.PNG"
+            "./static/images/Minimax/Minimax0Square.png",
+            "./static/images/Minimax/Minimax1.png",
+            "./static/images/Minimax/Minimax2.png",
+            "./static/images/Minimax/Minimax3.png"
+        ]
+        },
+        {
+        "id": "3",
+        "project_name": "Stack Moxie Published Values",
+        "description": "Published Values is a feature I built from the ground up while working with Stack Moxie. I was also involved in wireframing the idea and doing feature research on how best to implement it. Published Values is a feature that allows users of the Stack Moxie testing framework to use a list of values to run test cases against. This is particularly useful in contexts where a value could be any one of a large set of values. Rather than testing against each individual value or entering the values one-by-one, published values allow the user to create lists once and use them multiple times. The feature also connects with a user's Salesforce Global Picklist values, which allows them to test against Salesforce values if they have a connection. In addition, the feature notifies users when Salesforce Global Picklist values have changed, exposing critical information to marketing team members who don't always have Admin access to their company's Salesforce instance, but do rely on the data in global picklists to conduct their daily tasks. New or updated values are intelligently retrieved once per day and cached using Redis.",
+        "technologies": [
+            "Sails.js",
+            "Vue.js",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Salesforce API's",
+            "Redis",
+            "ORM",
+            "Database Models"
+        ],
+        "image_urls": [
+            "./static/images/Published Values/pubVals0Square.png",
+            "./static/images/Published Values/pubVals1.png",
+            "./static/images/Published Values/pubVals2.png",
+            "./static/images/Published Values/pubVals5.png"
         ]
         },
         { 
-        "id": "3",
+        "id": "4",
         "project_name": "Phrase Hunter Game",
         "description": "This project uses object-oriented vanilla JavaScript to create a hangman-like game. Players use the onscreen keyboard to make their guesses. If a guess is incorrect, the player loses a life (the hearts at the bottom). The player has a total of five tries in which to guess the phrase. If they do not, a losing message is presented and they can restart the game. If they guess the phrase, then a winning message is displayed and they can generate a new random phrase to guess. The data set was generated from a text file containing more than 8,000 common English phrases (and a few of my own). I cleaned the data set to remove expressions that contained punctuation and filtered out inappropriate phrases using Java. Then the data set was imported to this project.",
         "technologies": [
@@ -80,25 +103,6 @@
             "./static/images/9/phrase3.JPG",
             "./static/images/9/phrase4.JPG",
             "./static/images/9/phrase5.JPG"
-        ]
-        },
-        {
-        "id": "4",
-        "project_name": "Java Hangman Game",
-        "description": "This project gets dictionary input from a large dictionary file, cleans the input, and then uses those words as the source for the game. The game has two modes, but the user doesn't know which they are playing. Normal hangman mode plays as one would expect, where a user guesses a letter and letters are revealed one at a time until they run out of tries or guess the word. Evil Hangman changes the word each time a player guesses a correct letter to another word with the same letter configuration as the user currently has.",
-        "technologies": [
-            "Java",
-            "jUnit Testing",
-            "Java File I/O",
-            "Abstract Classes and Methods",
-            "Javadocs"
-        ],
-        "github_link": "https://github.com/criemensnider/Hangman",
-        "image_urls": [
-            "./static/images/Hangman/hangman0square.png",
-            "./static/images/Hangman/start.png",
-            "./static/images/Hangman/midway.png",
-            "./static/images/Hangman/gameEnd.png"
         ]
         },
         { 
@@ -217,6 +221,44 @@
             "./static/images/10/randomquote1.JPG",
             "./static/images/10/randomquote2.JPG",
             "./static/images/10/randomquote3.JPG"
+        ]
+        },
+        {
+        "id": "11",
+        "project_name": "Java Battleship Game",
+        "description": "This project uses Java to render a command-line battleship game that a user can play against a computer. The ships are randomly placed each time and users can enter where they'd like to shoot by entering a pair of coordinates each turn. Sunk ships are represented by an 's', hits are represented by an 'x', spaces that have not been shot at are represented by '.', and misses are represented by '-'.",
+        "technologies": [
+            "Java",
+            "jUnit Testing",
+            "Method Overloading",
+            "Abstract Classes and Methods",
+            "Javadocs"
+        ],
+        "github_link": "https://github.com/criemensnider/Battleship",
+        "image_urls": [
+            "./static/images/2/battleship0square.png",
+            "./static/images/2/battleship1.PNG",
+            "./static/images/2/battleship2.PNG",
+            "./static/images/2/battleship3.PNG"
+        ]
+        },
+        {
+        "id": "12",
+        "project_name": "Java Hangman Game",
+        "description": "This project gets dictionary input from a large dictionary file, cleans the input, and then uses those words as the source for the game. The game has two modes, but the user doesn't know which they are playing. Normal hangman mode plays as one would expect, where a user guesses a letter and letters are revealed one at a time until they run out of tries or guess the word. Evil Hangman changes the word each time a player guesses a correct letter to another word with the same letter configuration as the user currently has.",
+        "technologies": [
+            "Java",
+            "jUnit Testing",
+            "Java File I/O",
+            "Abstract Classes and Methods",
+            "Javadocs"
+        ],
+        "github_link": "https://github.com/criemensnider/Hangman",
+        "image_urls": [
+            "./static/images/Hangman/hangman0square.png",
+            "./static/images/Hangman/start.png",
+            "./static/images/Hangman/midway.png",
+            "./static/images/Hangman/gameEnd.png"
         ]
         }
     ]
