@@ -264,11 +264,14 @@
         {
             "id": "13",
             "project_name": "Dice App - iOS",
-            "description": "This is a basic dice app written in Swift that runs on iPhone. The app opens and there is a roll button displayed. When a user hits the roll button, random pairs of dice are displayed.",
+            "description": "This app is perfect for those moments when you need to settle something with the throw of some dice on the go! Or, if you're like me, and lose the dice that come with Yahtzee!, this app will provide a replacement so you can continue to play. The app is written in Swift and makes use of the Main Storyboard for the UI layout and the View Controller to control the display of the dice and the roll button functionality. To use the app, a user simply hits the roll button and random pairs of dice are displayed.",
             "technologies": [
                 "Swift",
                 "iOS",
-                "xCode"
+                "xCode",
+                "App Design",
+                "Storyboarding",
+                "Icon Design"
             ],
             "github_link": "https://github.com/criemensnider/dice-app",
             "image_urls": [
