@@ -260,7 +260,22 @@
             "./static/images/Hangman/midway.png",
             "./static/images/Hangman/gameEnd.png"
         ]
-        }
+        },
+        {
+            "id": "13",
+            "project_name": "Dice App - iOS",
+            "description": "This is a basic dice app written in Swift that runs on iPhone. The app opens and there is a roll button displayed. When a user hits the roll button, random pairs of dice are displayed.",
+            "technologies": [
+                "Swift",
+                "iOS",
+                "xCode"
+            ],
+            "github_link": "https://github.com/criemensnider/dice-app",
+            "image_urls": [
+                "./static/images/DiceApp/diceApp1.jpeg",
+                "./static/images/DiceApp/diceGif.gif"
+            ]
+            }
     ]
 
 }
