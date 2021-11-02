@@ -83,26 +83,22 @@
             "./static/images/Published Values/pubVals5.png"
         ]
         },
-        { 
+        {
         "id": "4",
-        "project_name": "Phrase Hunter Game",
-        "description": "This project uses object-oriented vanilla JavaScript to create a hangman-like game. Players use the onscreen keyboard to make their guesses. If a guess is incorrect, the player loses a life (the hearts at the bottom). The player has a total of five tries in which to guess the phrase. If they do not, a losing message is presented and they can restart the game. If they guess the phrase, then a winning message is displayed and they can generate a new random phrase to guess. The data set was generated from a text file containing more than 8,000 common English phrases (and a few of my own). I cleaned the data set to remove expressions that contained punctuation and filtered out inappropriate phrases using Java. Then the data set was imported to this project.",
+        "project_name": "Magic 8 Ball App - iOS",
+        "description": "For those questions that just won't go away, outsource the future to the Magic 8 Ball! The 8 Ball displays different responses to questions when a user taps on the \"ask\" button. The app features a custom launch page and uses xCode Auto Layout to allow the app to run properly no matter which orientation an iOS device is held in.",
         "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Java",
-            "Object-Oriented Programming"
+            "Swift",
+            "iOS",
+            "xCode",
+            "App Design",
+            "Auto Layout",
+            "Storyboarding"
         ],
-        "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
-        "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
+        "github_link": "https://github.com/criemensnider/magic-8-ball-ios",
         "image_urls": [
-            "./static/images/9/phrase0square.jpg",
-            "./static/images/9/phrase1.JPG",
-            "./static/images/9/phrase2.JPG",
-            "./static/images/9/phrase3.JPG",
-            "./static/images/9/phrase4.JPG",
-            "./static/images/9/phrase5.JPG"
+            "./static/images/8Ball/8BallSquare.png",
+            "./static/images/8Ball/8Ball.gif"
         ]
         },
         { 
@@ -261,8 +257,30 @@
             "./static/images/Hangman/gameEnd.png"
         ]
         },
+        { 
+        "id": "13",
+        "project_name": "Phrase Hunter Game",
+        "description": "This project uses object-oriented vanilla JavaScript to create a hangman-like game. Players use the onscreen keyboard to make their guesses. If a guess is incorrect, the player loses a life (the hearts at the bottom). The player has a total of five tries in which to guess the phrase. If they do not, a losing message is presented and they can restart the game. If they guess the phrase, then a winning message is displayed and they can generate a new random phrase to guess. The data set was generated from a text file containing more than 8,000 common English phrases (and a few of my own). I cleaned the data set to remove expressions that contained punctuation and filtered out inappropriate phrases using Java. Then the data set was imported to this project.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Java",
+            "Object-Oriented Programming"
+        ],
+        "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
+        "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
+        "image_urls": [
+            "./static/images/9/phrase0square.jpg",
+            "./static/images/9/phrase1.JPG",
+            "./static/images/9/phrase2.JPG",
+            "./static/images/9/phrase3.JPG",
+            "./static/images/9/phrase4.JPG",
+            "./static/images/9/phrase5.JPG"
+        ]
+        },
         {
-            "id": "13",
+            "id": "14",
             "project_name": "Dice App - iOS",
             "description": "This app is perfect for those moments when you need to settle something with the throw of some dice on the go! Or, if you're like me, and lose the dice that come with Yahtzee!, this app will provide a replacement so you can continue to play. The app is written in Swift and makes use of the Main Storyboard for the UI layout and the View Controller to control the display of the dice and the roll button functionality. To use the app, a user simply hits the roll button and random pairs of dice are displayed.",
             "technologies": [
