@@ -83,22 +83,23 @@
             "./static/images/Published Values/pubVals5.png"
         ]
         },
-        {
+        { 
         "id": "4",
-        "project_name": "Magic 8 Ball App - iOS",
-        "description": "For those questions that just won't go away, outsource the future to the Magic 8 Ball! The 8 Ball displays different responses to questions when a user taps on the \"ask\" button. The app features a custom launch page and uses xCode Auto Layout to allow the app to run properly no matter which orientation an iOS device is held in.",
+        "project_name": "Destini Story App - iOS",
+        "description": "This project uses a Model View Controller (MVC) architecture to render a \"Choose Your Own Adventure\" style story. A user is presented with a prompt and then chooses between one of two options. Depending on the option they choose, the story will progress in a different way.",
         "technologies": [
             "Swift",
-            "iOS",
-            "xCode",
-            "App Design",
+            "Model View Controller (MVC)",
+            "Storyboarding",
+            "Structs",
+            "Object-Oriented Programming",
             "Auto Layout",
-            "Storyboarding"
+            "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/magic-8-ball-ios",
+        "github_link": "https://github.com/criemensnider/story-app-ios",
         "image_urls": [
-            "./static/images/8Ball/8BallSquare.jpg",
-            "./static/images/8Ball/8Ball.gif"
+            "./static/images/destini/DestiniSquare.jpg",
+            "./static/images/destini/DestiniGif.gif"
         ]
         },
         { 
@@ -124,22 +125,19 @@
         },
         { 
         "id": "6",
-        "project_name": "Paginated Student List",
-        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the full list of students 10 at a time. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
+        "project_name": "Egg Timer - iOS",
+        "description": "This app allows a user to select the hardness at which they would like their egg cooked from soft, medium, or hard. The app then sets a timer for either 5, 8, or 12 minutes, corresponding to the hardness of the egg. A progress bar at the bottom displays the progression of the timer. When the timer is done, a sound will play.",
         "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Dynamic Pagination and Searchbar"
+            "Swift",
+            "xCode",
+            "iOS",
+            "Auto Layout",
+            "App Design"
         ],
-        "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
-        "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
+        "github_link": "https://github.com/criemensnider/egg-timer-ios",
         "image_urls": [
-            "./static/images/7/list0square.jpg",
-            "./static/images/7/list1.JPG",
-            "./static/images/7/list2.JPG",
-            "./static/images/7/list3.JPG",
-            "./static/images/7/list4.JPG"
+            "./static/images/eggTimer/eggTimerSquare.jpg",
+            "./static/images/eggTimer/eggTimerGif.gif"
         ]
         },
         { 
@@ -160,26 +158,23 @@
         ]
         },
         { 
-        "id": "8",
-        "project_name": "Conference Signup Form",
-        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messages below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "RegEx",
-            "Responsive Forms"
-        ],
-        "live_link": "https://criemensnider.github.io/Form-Validation/",
-        "github_link": "https://github.com/criemensnider/Form-Validation",
-        "image_urls": [
-            "./static/images/8/form0square.jpg",
-            "./static/images/8/form1.JPG",
-            "./static/images/8/form2.JPG",
-            "./static/images/8/form3.JPG",
-            "./static/images/8/form4.JPG"
-        ]
-        },
+            "id": "8",
+            "project_name": "Quizzler - iOS",
+            "description": "This is a quiz app that uses a Model View Controller (MVC) architecture to run a quiz game. There are several questions and answers to choose from. If a player gets a question right, their score is incremented and the answer is highlighted in green. If they get the question wrong, the question is highlighted in red.",
+            "technologies": [
+                "Swift",
+                "Model View Controller (MVC)",
+                "xCode",
+                "iOS",
+                "Auto Layout",
+                "App Design"
+            ],
+            "github_link": "https://github.com/criemensnider/quizzler-ios-app",
+            "image_urls": [
+                "./static/images/quizzler/quizzlerSquare.jpg",
+                "./static/images/quizzler/quizzlerGif.gif"
+            ]
+            },
         { 
         "id": "9",
         "project_name": "Connect Four Game",
@@ -280,23 +275,82 @@
         ]
         },
         {
-            "id": "14",
-            "project_name": "Dice App - iOS",
-            "description": "This app is perfect for those moments when you need to settle something with the throw of some dice on the go! Or, if you're like me, and lose the dice that come with Yahtzee!, this app will provide a replacement so you can continue to play. The app is written in Swift and makes use of the Main Storyboard for the UI layout and the View Controller to control the display of the dice and the roll button functionality. To use the app, a user simply hits the roll button and random pairs of dice are displayed.",
-            "technologies": [
-                "Swift",
-                "iOS",
-                "xCode",
-                "App Design",
-                "Storyboarding",
-                "Icon Design"
-            ],
-            "github_link": "https://github.com/criemensnider/dice-app",
-            "image_urls": [
-                "./static/images/DiceApp/diceApp1.jpeg",
-                "./static/images/DiceApp/diceGif.gif"
-            ]
-            }
+        "id": "14",
+        "project_name": "Dice App - iOS",
+        "description": "This app is perfect for those moments when you need to settle something with the throw of some dice on the go! Or, if you're like me, and lose the dice that come with Yahtzee!, this app will provide a replacement so you can continue to play. The app is written in Swift and makes use of the Main Storyboard for the UI layout and the View Controller to control the display of the dice and the roll button functionality. To use the app, a user simply hits the roll button and random pairs of dice are displayed.",
+        "technologies": [
+            "Swift",
+            "iOS",
+            "xCode",
+            "App Design",
+            "Storyboarding",
+            "Icon Design"
+        ],
+        "github_link": "https://github.com/criemensnider/dice-app",
+        "image_urls": [
+            "./static/images/DiceApp/diceApp1.jpeg",
+            "./static/images/DiceApp/diceGif.gif"
+        ]
+        },
+        {
+        "id": "15",
+        "project_name": "Magic 8 Ball App - iOS",
+        "description": "For those questions that just won't go away, outsource the future to the Magic 8 Ball! The 8 Ball displays different responses to questions when a user taps on the \"ask\" button. The app features a custom launch page and uses xCode Auto Layout to allow the app to run properly no matter which orientation an iOS device is held in.",
+        "technologies": [
+            "Swift",
+            "iOS",
+            "xCode",
+            "App Design",
+            "Auto Layout",
+            "Storyboarding"
+        ],
+        "github_link": "https://github.com/criemensnider/magic-8-ball-ios",
+        "image_urls": [
+            "./static/images/8Ball/8BallSquare.jpg",
+            "./static/images/8Ball/8Ball.gif"
+        ]
+        },
+        { 
+        "id": "16",
+        "project_name": "Paginated Student List",
+        "description": "For this project, I utilized vanilla JavaScript (no libraries) to create a dynamic pagination system for a list. My code appends a list of links to the bottom of the page that allows a user to navigate through the full list of students 10 at a time. The list is dynamic, so it updates automatically depending on the size of the list input. After completing the initial code mentioned above, I elected to add a search bar function. It is appended to the DOM using vanilla JavaScript. There are two event listeners, one on the search button and one on the search text input field. As a user types, the search function dynamically searches through each name on the list to see if there are any matches. If the user inputs a string of text that matches a user's name in entirety or in part, the function displays that name and hides all others. If no matches are found, a message is displayed telling the user to try another name as no matches were found.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Dynamic Pagination and Searchbar"
+        ],
+        "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
+        "image_urls": [
+            "./static/images/7/list0square.jpg",
+            "./static/images/7/list1.JPG",
+            "./static/images/7/list2.JPG",
+            "./static/images/7/list3.JPG",
+            "./static/images/7/list4.JPG"
+        ]
+        },
+        { 
+        "id": "17",
+        "project_name": "Conference Signup Form",
+        "description": "This is a signup form for a fictional conference I completed using vanilla JavaScript. It is a dynamic form that allows users to input various data and receive feedback on what they have entered. If a user does not enter correct data, the form will be prevented from submitting by checking user inputs against RegEx values. The user is then notified of the data that they did not correctly enter through a list of error messages below the submit button and a red border on the section that is incorrect. If the user does not have JavaScript functioning on their browser, the form will still function.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "RegEx",
+            "Responsive Forms"
+        ],
+        "live_link": "https://criemensnider.github.io/Form-Validation/",
+        "github_link": "https://github.com/criemensnider/Form-Validation",
+        "image_urls": [
+            "./static/images/8/form0square.jpg",
+            "./static/images/8/form1.JPG",
+            "./static/images/8/form2.JPG",
+            "./static/images/8/form3.JPG",
+            "./static/images/8/form4.JPG"
+        ]
+        }
     ]
 
 }
