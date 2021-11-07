@@ -127,7 +127,7 @@
         { 
         "id": "6",
         "project_name": "BMI Calculator - iOS",
-        "description": "This project employs the Model View Controller (MVC) design pattern to render a BMI Calculator app. The app allows a user to make use of two sliders, corresponding to height and weight. Once they have entered their info, their BMI whill be rendered out to the screen. The background color adapts depending on whether the BMI is in the healthy, underweight, or overweight ranges. There is also a piece of advice displayed for the user.",
+        "description": "This project employs the Model View Controller (MVC) design pattern to render a BMI Calculator app. The app allows a user to make use of two sliders, corresponding to height and weight. Once they have entered their info, their BMI will be rendered out to the screen. The background color adapts depending on whether the BMI is in the healthy, underweight, or overweight ranges. There is also a piece of advice displayed for the user.",
         "technologies": [
             "Swift",
             "Model View Controller (MVC)",
