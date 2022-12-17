@@ -16,7 +16,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/clima-ios",
+        "github_link": "https://github.com/camdresie/clima-ios",
         "image_urls": [
             "./static/images/Clima/ClimaSquare.jpg",
             "./static/images/Clima/ClimaDark.gif",
@@ -36,7 +36,7 @@
             "Git",
             "Raspberry Pi"
         ],
-        "github_link": "https://github.com/criemensnider/Magic-Mirror-Code",
+        "github_link": "https://github.com/camdresie/Magic-Mirror-Code",
         "image_urls": [
             "./static/images/1/mirror0square.jpg",
             "./static/images/1/mirror3.jpg",
@@ -54,7 +54,7 @@
             "Minimax Algorithm",
             "Alpha-Beta Pruning"
         ],
-        "github_link": "https://github.com/criemensnider/dominoAlphaBetaMinimaxAI",
+        "github_link": "https://github.com/camdresie/dominoAlphaBetaMinimaxAI",
         "image_urls": [
             "./static/images/Minimax/Minimax0Square.png",
             "./static/images/Minimax/Minimax1.png",
@@ -98,7 +98,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/story-app-ios",
+        "github_link": "https://github.com/camdresie/story-app-ios",
         "image_urls": [
             "./static/images/destini/DestiniSquare.jpg",
             "./static/images/destini/DestiniGif.gif"
@@ -115,8 +115,8 @@
             "JavaScript Classes",
             "Responsive Design"
         ],
-        "live_link": "https://criemensnider.github.io/Hackathon-Project/",
-        "github_link": "https://github.com/criemensnider/Hackathon-Project",
+        "live_link": "https://camdresie.github.io/Hackathon-Project/",
+        "github_link": "https://github.com/camdresie/Hackathon-Project",
         "image_urls": [
             "./static/images/0/study0square.png",
             "./static/images/0/study1.PNG",
@@ -136,7 +136,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/bmi-calculator-ios",
+        "github_link": "https://github.com/camdresie/bmi-calculator-ios",
         "image_urls": [
             "./static/images/BMI/BMISquare.jpg",
             "./static/images/BMI/BMI.gif"
@@ -151,7 +151,7 @@
             "Unit Testing",
             "Algorithm Design"
         ],
-        "github_link": "https://github.com/criemensnider/TowerBlaster",
+        "github_link": "https://github.com/camdresie/TowerBlaster",
         "image_urls": [
             "./static/images/Tower/tower0square.png",
             "./static/images/Tower/gameStart.png",
@@ -171,8 +171,8 @@
             "JavaScript Promises",
             "jQuery"
         ],
-        "live_link": "https://criemensnider.github.io/Employee-Directory-App---Web-API/",
-        "github_link": "https://github.com/criemensnider/Employee-Directory-App---Web-API",
+        "live_link": "https://camdresie.github.io/Employee-Directory-App---Web-API/",
+        "github_link": "https://github.com/camdresie/Employee-Directory-App---Web-API",
         "image_urls": [
             "./static/images/4/directory0square.jpg",
             "./static/images/4/directory1.JPG",
@@ -191,8 +191,8 @@
             "Java",
             "Object-Oriented Programming"
         ],
-        "live_link": "https://criemensnider.github.io/Phrase-Hunter-Word-Guessing-Game/",
-        "github_link": "https://github.com/criemensnider/Phrase-Hunter-Word-Guessing-Game",
+        "live_link": "https://camdresie.github.io/Phrase-Hunter-Word-Guessing-Game/",
+        "github_link": "https://github.com/camdresie/Phrase-Hunter-Word-Guessing-Game",
         "image_urls": [
             "./static/images/9/phrase0square.jpg",
             "./static/images/9/phrase1.JPG",
@@ -212,8 +212,8 @@
             "JavaScript",
             "Dynamic Pagination and Searchbar"
         ],
-        "live_link": "https://criemensnider.github.io/List-Pagination-and-Filtering/",
-        "github_link": "https://github.com/criemensnider/List-Pagination-and-Filtering",
+        "live_link": "https://camdresie.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/camdresie/List-Pagination-and-Filtering",
         "image_urls": [
             "./static/images/7/list0square.jpg",
             "./static/images/7/list1.JPG",
@@ -233,7 +233,7 @@
             "Abstract Classes and Methods",
             "Javadocs"
         ],
-        "github_link": "https://github.com/criemensnider/Battleship",
+        "github_link": "https://github.com/camdresie/Battleship",
         "image_urls": [
             "./static/images/2/battleship0square.png",
             "./static/images/2/battleship1.PNG",
@@ -253,7 +253,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/tipcalculator-ios",
+        "github_link": "https://github.com/camdresie/tipcalculator-ios",
         "image_urls": [
             "./static/images/Tipsy/TipsySquare.jpg",
             "./static/images/Tipsy/Tipsy.gif"
@@ -270,7 +270,7 @@
             "Abstract Classes and Methods",
             "Javadocs"
         ],
-        "github_link": "https://github.com/criemensnider/Hangman",
+        "github_link": "https://github.com/camdresie/Hangman",
         "image_urls": [
             "./static/images/Hangman/hangman0square.png",
             "./static/images/Hangman/start.png",
@@ -289,8 +289,8 @@
             "JavaScript Classes",
             "jQuery"
         ],
-        "live_link": "https://criemensnider.github.io/Connect-4-Game/",
-        "github_link": "https://github.com/criemensnider/Connect-4-Game",
+        "live_link": "https://camdresie.github.io/Connect-4-Game/",
+        "github_link": "https://github.com/camdresie/Connect-4-Game",
         "image_urls": [
             "./static/images/5/connect0square.jpg",
             "./static/images/5/connect1.JPG",
@@ -310,7 +310,7 @@
             "Storyboarding",
             "Icon Design"
         ],
-        "github_link": "https://github.com/criemensnider/dice-app",
+        "github_link": "https://github.com/camdresie/dice-app",
         "image_urls": [
             "./static/images/DiceApp/diceApp1.jpeg",
             "./static/images/DiceApp/diceGif.gif"
@@ -328,7 +328,7 @@
             "Auto Layout",
             "Storyboarding"
         ],
-        "github_link": "https://github.com/criemensnider/magic-8-ball-ios",
+        "github_link": "https://github.com/camdresie/magic-8-ball-ios",
         "image_urls": [
             "./static/images/8Ball/8BallSquare.jpg",
             "./static/images/8Ball/8Ball.gif"
@@ -344,8 +344,8 @@
             "JavaScript",
             "Functional Programming"
         ],
-        "live_link": "https://criemensnider.github.io/Random-Quote-Generator/",
-        "github_link": "https://github.com/criemensnider/Random-Quote-Generator",
+        "live_link": "https://camdresie.github.io/Random-Quote-Generator/",
+        "github_link": "https://github.com/camdresie/Random-Quote-Generator",
         "image_urls": [
             "./static/images/10/randomquote0square.jpg",
             "./static/images/10/randomquote1.JPG",
@@ -365,8 +365,8 @@
             "RegEx",
             "Responsive Forms"
         ],
-        "live_link": "https://criemensnider.github.io/Form-Validation/",
-        "github_link": "https://github.com/criemensnider/Form-Validation",
+        "live_link": "https://camdresie.github.io/Form-Validation/",
+        "github_link": "https://github.com/camdresie/Form-Validation",
         "image_urls": [
             "./static/images/8/form0square.jpg",
             "./static/images/8/form1.JPG",
@@ -387,7 +387,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/quizzler-ios-app",
+        "github_link": "https://github.com/camdresie/quizzler-ios-app",
         "image_urls": [
             "./static/images/quizzler/quizzlerSquare.jpg",
             "./static/images/quizzler/quizzlerGif.gif"
@@ -404,7 +404,7 @@
             "Auto Layout",
             "App Design"
         ],
-        "github_link": "https://github.com/criemensnider/egg-timer-ios",
+        "github_link": "https://github.com/camdresie/egg-timer-ios",
         "image_urls": [
             "./static/images/eggTimer/eggTimerSquare.jpg",
             "./static/images/eggTimer/eggTimerGif.gif"
